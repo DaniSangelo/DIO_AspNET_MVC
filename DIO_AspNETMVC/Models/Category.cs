@@ -11,7 +11,5 @@ namespace DIO_AspNETMVC.Models
         public int Id { get; set; }
         [Required(ErrorMessage = "Category name must be informed")]
         public string Name { get; set; }
-
-        public List<Product> Products { get; set; }
     }
 }
